@@ -10,8 +10,7 @@ export default {
         irisBlueColor: "#01B5C5",
         headingColor: "#181A1E",
         textColor: "#4E545F",
-        bgGrey: "#181A1E",
-        bgRed: "#FF0000"
+        indigoColor: "#6c0082",
       },
 
       boxShadow: {
