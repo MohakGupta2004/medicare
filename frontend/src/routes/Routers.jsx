@@ -11,7 +11,7 @@ import { Navigate } from "react-router-dom";
 import MyAccount from "../../Dashboard/user-account/MyAccount";
 import Dashboard from "../../Dashboard/doctor-account/Dashboard";
 import ProtectedRoute from "./ProtectedRoute";
-
+import CheckoutSuccess from "../pages/Doctors/CheckOutSuccess";
 const Router = () =>{
     return <Routes>
         <Route path='/' element={<Home/>}/>
@@ -19,6 +19,7 @@ const Router = () =>{
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/services" element={<Services/>}/>
+        <Route path="/checkout-success" element={<CheckoutSuccess/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/doctors" element={<Doctor/>}/>
         <Route path="/doctors/:id" element={<DoctorDetails/>}/>

@@ -75,7 +75,7 @@ const DoctorDetails = ()=>{
                         </div>
 
                     </div>
-                    <div><SidePanel doctorId={doctorImg._id} ticketPrice={ticketPrice} timeSlots={timeSlots} /></div>
+                    <div><SidePanel doctorId={doctors._id} ticketPrice={ticketPrice} timeSlots={timeSlots} /></div>
                 </div>)}
             </div>
         </section>
